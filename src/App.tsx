@@ -7,12 +7,11 @@ import { Work } from './components/Work';
 import { About } from './components/About';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
-import { PersonalizeModal } from './components/PersonalizeModal';
 import { ResumeModal } from './components/ResumeModal';
 
 export const App: React.FC = () => {
-  // Load initial portfolio data with localStorage fallback for personalized preview
-  const [data, setData] = useState<PortfolioData>(() => {
+  // Load portfolio data
+  const [data] = useState<PortfolioData>(() => {
     try {
       const saved = localStorage.getItem('fresh_grad_portfolio_data');
       if (saved) {
@@ -31,7 +30,6 @@ export const App: React.FC = () => {
     return initialPortfolioData;
   });
 
-  const [isPersonalizeOpen, setIsPersonalizeOpen] = useState(false);
   const [isResumeOpen, setIsResumeOpen] = useState(false);
 
   // Update document title dynamically
@@ -39,40 +37,12 @@ export const App: React.FC = () => {
     document.title = `${data.personal.name} | Fresh Graduate Portfolio`;
   }, [data.personal.name]);
 
-  const handleUpdatePersonal = (updated: Partial<PortfolioData['personal']>) => {
-    setData((prev) => {
-      const nextData: PortfolioData = {
-        ...prev,
-        personal: {
-          ...prev.personal,
-          ...updated,
-        },
-      };
-      try {
-        localStorage.setItem('fresh_grad_portfolio_data', JSON.stringify({ personal: nextData.personal }));
-      } catch {
-        // Safe fallback
-      }
-      return nextData;
-    });
-  };
-
-  const handleResetPersonal = () => {
-    try {
-      localStorage.removeItem('fresh_grad_portfolio_data');
-    } catch {
-      // Safe fallback
-    }
-    setData(initialPortfolioData);
-  };
-
   return (
     <div className="min-h-screen bg-cream text-cocoa selection:bg-taupe/30 selection:text-cocoa flex flex-col font-sans">
       
       {/* Sticky Navigation Bar */}
       <Navbar
         name={data.personal.name}
-        onOpenPersonalize={() => setIsPersonalizeOpen(true)}
         onOpenResume={() => setIsResumeOpen(true)}
       />
 
@@ -103,15 +73,6 @@ export const App: React.FC = () => {
       {/* Footer */}
       <Footer
         personal={data.personal}
-      />
-
-      {/* Interactive Personalization Modal */}
-      <PersonalizeModal
-        isOpen={isPersonalizeOpen}
-        onClose={() => setIsPersonalizeOpen(false)}
-        data={data}
-        onUpdatePersonal={handleUpdatePersonal}
-        onReset={handleResetPersonal}
       />
 
       {/* Printable Resume Preview Modal */}

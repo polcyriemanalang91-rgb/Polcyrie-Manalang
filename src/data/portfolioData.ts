@@ -154,49 +154,53 @@ export const initialPortfolioData: PortfolioData = {
 
   projects: [
     {
-      id: "smart-campus",
-      title: "SmartCampus Hub - Student Facility & Academic Portal",
+      id: "Barangay-Management-System",
+      title: " Pulong San Miguel Barangay Management System",
       subtitle: "Senior Capstone Project",
       category: "Capstone",
       featured: true,
-      description: "A centralized web platform enabling university students to reserve study labs, track academic milestones, and discover campus events in real time.",
-      detailedDescription: "Conceived and developed as our senior year capstone project to address fragmented campus scheduling systems. The platform delivers a unified student dashboard with instant lab capacity visualization, automated booking collision detection, and personalized course event notifications.",
+      description: "The Pulong San Miguel Barangay Management System centralizes resident records and automates certificate issuance, reducing paperwork, improving accuracy, and streamlining services for officials and residents.",
+      detailedDescription: "The Pulong San Miguel Barangay Management System is a digital solution designed to store, organize, and manage civilian information within the barangay. It streamlines administrative tasks by automating the generation of various certificates such as residency, indigency, and clearance. This system reduces manual paperwork, improves accuracy, and enhances service delivery for both barangay officials and residents.",
       keyFeatures: [
-        "Real-time room and study pod reservation with conflict prevention algorithms",
-        "Role-based authentication system supporting Students, Faculty, and Lab Administrators",
-        "Interactive campus map with live equipment availability status",
-        "Automated email confirmation and calendar (.ics) sync integration"
+        "Centralized Civilian Database",
+        "Certificate Generation",
+        "User-Friendly Interface",
+        "Data Accuracy & Transparency",
+        "Time-Saving Automation",
+        "Scalability"
       ],
       learningOutcomes: [
-        "Architected modular React state management using modern hooks and context",
-        "Designed relational database schema in PostgreSQL with comprehensive foreign key constraints",
-        "Collaborated with cross-functional stakeholders including university IT staff to test real-world user flows"
+        "Developed practical skills in structuring, normalizing, and maintaining a secure civilian information database for real-world use.",
+        "Gained experience in connecting front-end interfaces with back-end logic to deliver functional certificate generation features.",
+        "Strengthened ability to analyze community needs, translate them into system solutions, and build confidence in applying IT knowledge to governance challenges."
       ],
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "Express", "PostgreSQL", "JWT"],
+      technologies: ["Visual Studio", "PHP", "JavaScript", "CSS", "XAMPP"],
       image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80",
       demoUrl: "https://example.com/demo/smartcampus",
       githubUrl: "https://github.com/example-graduate/smartcampus-hub"
     },
     {
-      id: "ecotrack-exchange",
-      title: "EcoTrack - Community Recyclables & Sustainability Exchange",
-      subtitle: "Academic Team Project & Hackathon Finalist",
+      id: "Photography-Reservation-System",
+      title: "Photography Reservation System",
+      subtitle: "Academic Team Project",
       category: "Full-Stack",
       featured: true,
-      description: "A community sustainability platform connecting households with verified local eco-drop centers and encouraging green habits through interactive reward tracking.",
-      detailedDescription: "Built for our University Sustainability Innovation Sprint. EcoTrack simplifies municipal waste sorting by providing an intelligent item search guide, drop-off appointment booking, and a verified community impact leaderboard.",
+      description: "A Photography Reservation System that simplifies photo shoot bookings, prevents schedule conflicts, and offers optional in-system payments for convenience.",
+      detailedDescription: "The Photography Reservation System is designed to streamline the process of booking photo shoot sessions. It ensures conflict-free scheduling by allowing clients to reserve slots in advance and provides an integrated payment option for added convenience. This system enhances efficiency for both photographers and clients by reducing manual errors and offering a centralized platform for managing appointments.",
       keyFeatures: [
-        "Searchable interactive directory of recyclable materials and disposal criteria",
-        "Geolocation-enabled center finder with operating hours and accepted materials",
-        "Personal carbon offset calculator and earned badge profile showcase",
-        "Accessible, high-contrast UI meeting WCAG 2.1 AA standards"
+        "Reservation Management ",
+        "Conflict-Free Scheduling",
+        "Integrated Payment Option",
+        "Centralized Calendar View",
+        "Instant Notifications",
+        "User-Friendly Interface"
       ],
       learningOutcomes: [
-        "Integrated third-party mapping APIs and geolocation services",
-        "Implemented secure RESTful endpoints and optimized JSON payloads",
-        "Mastered mobile-first responsive layout techniques using Tailwind CSS"
+        "Gained experience in creating ERDs and implementing relationships in SQL.",
+        "Applied coding practices to build functional modules like booking forms and payment integration.",
+        "Strengthened knowledge in Java, NetBeans, and GUI development."
       ],
-      technologies: ["React", "JavaScript", "Tailwind CSS", "Supabase", "Leaflet Maps", "Vite"],
+      technologies: ["NetBeans", "Java SE", "Swing (JFrame)", "JDBC", "MySQL", "Claude AI"],
       image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1000&q=80",
       demoUrl: "https://example.com/demo/ecotrack",
       githubUrl: "https://github.com/example-graduate/ecotrack-exchange"
@@ -226,25 +230,27 @@ export const initialPortfolioData: PortfolioData = {
       githubUrl: "https://github.com/example-graduate/aura-habit-tracker"
     },
     {
-      id: "asset-audit-dashboard",
-      title: "Internal IT Asset & Equipment Audit Dashboard",
-      subtitle: "Practicum & Academic Internship Project",
+      id: "NEUST Management System",
+      title: "NEUST Management System",
+      subtitle: "Academic Project",
       category: "Full-Stack",
       featured: false,
-      description: "An internal management portal developed during summer internship to automate departmental laptop and lab equipment check-ins.",
-      detailedDescription: "Created to replace error-prone manual spreadsheets. The portal allows lab technicians to log equipment condition, assign devices to student researchers, and flag overdue returns.",
+      description: "The NEUST Management System is a library software that stores book records, manages student borrowing, and generates reports such as book lists and student borrowing summaries—improving efficiency and accuracy in library operations.",
+      detailedDescription: "The NEUST Management System is a software application designed to streamline library operations by storing book records and managing student borrowing activities. It provides a centralized database where librarians can record book details, track borrowing transactions, and generate reports such as book lists and student borrowing summaries. This system enhances efficiency, reduces manual errors, and ensures accurate monitoring of library resources.",
       keyFeatures: [
-        "Barcode / asset tag fast search and status filter",
-        "Automated return due-date reminders via email trigger",
-        "Audit history log with timestamped condition notes",
-        "One-click report generation with CSV/PDF data export"
+        "Centralized Book Storage ",
+        "Borrowing & Returning Management",
+        "Automated Availability Updates",
+        "Student Borrowing Records",
+        "Book List Generation",
+        "User-Friendly Interface"
       ],
       learningOutcomes: [
-        "Experienced enterprise-style codebases and standardized code formatting",
-        "Practiced defensive programming and strict form validation patterns",
-        "Demonstrated a 45% reduction in manual reconciliation time for the department"
+        "Gained hands-on experience in designing and implementing a relational database to store book and student records, strengthening SQL and ERD knowledge.",
+        "Learned how to translate real-world library processes into a functional system, improving skills in Java, NetBeans, and logical workflow design.",
+        "Developed confidence in building a complete management system, preparing for future IT roles by showcasing practical knowledge in software development and documentation."
       ],
-      technologies: ["React", "REST API", "Tailwind CSS", "Express", "PostgreSQL", "Chart.js"],
+      technologies: ["NetBeans", "MySQL", "JDBC", "Swing", "Java SE", "Claude AI"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80",
       demoUrl: "https://example.com/demo/asset-dashboard",
       githubUrl: "https://github.com/example-graduate/asset-audit-system"

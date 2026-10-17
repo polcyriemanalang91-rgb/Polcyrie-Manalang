@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, FileText, Sparkles, Send } from 'lucide-react';
+import { Menu, X, FileText, Send } from 'lucide-react';
 
 interface NavbarProps {
   name: string;
-  onOpenPersonalize: () => void;
   onOpenResume: () => void;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ name, onOpenPersonalize, onOpenResume }) => {
+export const Navbar: React.FC<NavbarProps> = ({ name, onOpenResume }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
@@ -117,16 +116,6 @@ export const Navbar: React.FC<NavbarProps> = ({ name, onOpenPersonalize, onOpenR
 
           {/* Quick Actions (Desktop) */}
           <div className="hidden md:flex items-center gap-3">
-            {/* Quick Personalize Button */}
-            <button
-              onClick={onOpenPersonalize}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium text-cocoa bg-beige/70 hover:bg-beige border border-taupe/50 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-coffee"
-              title="Quickly customize placeholder details"
-            >
-              <Sparkles className="w-3.5 h-3.5 text-coffee" />
-              <span>Personalize</span>
-            </button>
-
             {/* Resume Button */}
             <button
               onClick={onOpenResume}
@@ -149,14 +138,6 @@ export const Navbar: React.FC<NavbarProps> = ({ name, onOpenPersonalize, onOpenR
 
           {/* Mobile Menu Button */}
           <div className="flex md:hidden items-center gap-2">
-            <button
-              onClick={onOpenPersonalize}
-              className="p-2 rounded-lg text-cocoa bg-beige/60 border border-taupe/40 focus:outline-none"
-              title="Personalize"
-              aria-label="Personalize"
-            >
-              <Sparkles className="w-4 h-4 text-coffee" />
-            </button>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="p-2 rounded-lg text-cocoa hover:bg-beige/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-coffee"

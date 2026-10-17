@@ -172,7 +172,7 @@ export const Hero: React.FC<HeroProps> = ({ personal, onOpenResume }) => {
                   <GraduationCap className="w-4 h-4" />
                 </div>
                 <div className="text-left">
-                  <div className="text-[11px] font-semibold text-cocoa leading-tight">Class of 2024</div>
+                  <div className="text-[11px] font-semibold text-cocoa leading-tight">Class of 2026</div>
                   <div className="text-[10px] text-cocoa-muted">Honors Graduate</div>
                 </div>
               </div>
