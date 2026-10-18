@@ -173,7 +173,7 @@ export const Hero: React.FC<HeroProps> = ({ personal, onOpenResume }) => {
                 </div>
                 <div className="text-left">
                   <div className="text-[11px] font-semibold text-cocoa leading-tight">Class of 2026</div>
-                  <div className="text-[10px] text-cocoa-muted">Honors Graduate</div>
+                  <div className="text-[10px] text-cocoa-muted"> Graduate</div>
                 </div>
               </div>
 

@@ -53,25 +53,26 @@ export const initialPortfolioData: PortfolioData = {
       name: "Frontend Development",
       iconName: "Layout",
       skills: [
-        { name: "React / React Hooks", level: "Proficient", isTop: true },
-        { name: "TypeScript", level: "Intermediate", isTop: true },
+        { name: "React", level: "Intermediate", isTop: true },
+        { name: "HTML5 / CSS3 ", level: "Intermediate", isTop: true },
         { name: "JavaScript (ES6+)", level: "Proficient", isTop: true },
         { name: "HTML5 & Semantic Markup", level: "Proficient" },
         { name: "CSS3 / Modern Layouts (Flex & Grid)", level: "Proficient" },
         { name: "Tailwind CSS", level: "Proficient", isTop: true },
         { name: "Responsive Web Design", level: "Proficient" },
-        { name: "Next.js Basics", level: "Intermediate" }
+        { name: "Laravel (Blade Templates) ", level: "Intermediate" }
       ]
     },
     {
       name: "Backend & Databases",
       iconName: "Database",
       skills: [
-        { name: "Node.js & Express", level: "Intermediate", isTop: true },
+        { name: "PHP", level: "Intermediate", isTop: true },
         { name: "RESTful API Design", level: "Proficient", isTop: true },
-        { name: "PostgreSQL", level: "Intermediate" },
+        { name: "XAMPP (Apache, MySQL, PHP)", level: "Intermediate" },
         { name: "MongoDB ", level: "Intermediate" },
-        { name: "Authentication (JWT & OAuth basics)", level: "Intermediate" }
+        { name: "Authentication (JWT & OAuth basics)", level: "Intermediate" },
+        { name: "SSMS (SQL Server Management Studio)", level: "Intermediate" }
       ]
     },
     {
@@ -82,7 +83,7 @@ export const initialPortfolioData: PortfolioData = {
         { name: "VS Code & Debugging Tools", level: "Proficient" },
         { name: "Postman API Testing", level: "Intermediate" },
         { name: "Vite & Modern Bundlers", level: "Intermediate" },
-        { name: "npm / package management", level: "Proficient" },
+        { name: "Claude & Copilot (AI-assisted coding tools)", level: "Proficient" },
         { name: "Basic CI/CD & Vercel Deployment", level: "Intermediate" }
       ]
     },

@@ -35,9 +35,9 @@ export const PersonalizeModal: React.FC<PersonalizeModalProps> = ({
   const handleSave = (e: React.FormEvent) => {
     e.preventDefault();
     onUpdatePersonal({
-      name: name.trim() || 'Alex Morgan',
+      name: name.trim() || 'Polcyrie Manalang',
       roleHeadline: headline.trim() || 'A Fresh Graduate Ready to Learn, Grow, and Make an Impact.',
-      email: email.trim() || 'alex.morgan.grad@example.com',
+      email: email.trim() || 'polcyriemanalang91@example.com',
       location: location.trim() || 'Metro City / Open to Relocation & Remote',
     });
     setSavedSuccess(true);
@@ -133,7 +133,7 @@ export const PersonalizeModal: React.FC<PersonalizeModalProps> = ({
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="e.g. yourname@example.com"
+              placeholder="polcyriemanalang91@example.com"
               className="w-full px-3.5 py-2.5 rounded-xl bg-white border border-taupe/60 text-sm text-cocoa focus:outline-none focus:border-coffee focus:ring-1 focus:ring-coffee"
             />
           </div>
