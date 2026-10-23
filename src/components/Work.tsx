@@ -176,7 +176,7 @@ export const Work: React.FC<WorkProps> = ({ projects }) => {
             All code repositories include comprehensive README documentation, database schemas, and setup instructions.
           </p>
           <a
-            href="https://github.com/example-graduate"
+            href="https://github.com/polcyriemanalang91-rgb"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-xs font-semibold text-coffee hover:text-coffee-dark underline underline-offset-4"
