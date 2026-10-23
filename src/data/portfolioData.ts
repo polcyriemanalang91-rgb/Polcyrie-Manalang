@@ -20,11 +20,11 @@ export const initialPortfolioData: PortfolioData = {
     location: "Talavera, Nueva Ecija / Open to Relocation & Remote Roles",
     // Profile Photo: Use a URL or place your image in the 'public' folder (e.g. '/profile.jpg')
     avatarImage: "/picture.jpg",
-    email: "polcyriemanalang91@example.com", // Replace with [Your Email]
+    email: "polcyriemanalang91@gmail.com", // Replace with [Your Email]
     phone: "0926-6531-281",
-    availability: "Available for Full-time Roles & Internships",
+    availability: "Available for Full-time Roles & Internships", 
     socialLinks: {
-      github: "https://github.com/example-graduate",
+      github: "https://github.com/polcyriemanalang91-rgb",
       linkedin: "https://www.linkedin.com/in/polcyrie-manalang-80b9853ba",
       portfolio: "https://polcyriemanalang-portfolio.dev"
     }
@@ -202,7 +202,7 @@ export const initialPortfolioData: PortfolioData = {
         "Strengthened knowledge in Java, NetBeans, and GUI development."
       ],
       technologies: ["NetBeans", "Java SE", "Swing (JFrame)", "JDBC", "MySQL", "Claude AI"],
-      image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1000&q=80",
+      image: "https://remi-portrait.com/wp-content/uploads/2026/02/Photography.webp",
       demoUrl: "https://example.com/demo/ecotrack",
       githubUrl: "https://github.com/example-graduate/ecotrack-exchange"
     },
@@ -255,30 +255,6 @@ export const initialPortfolioData: PortfolioData = {
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80",
       demoUrl: "https://example.com/demo/asset-dashboard",
       githubUrl: "https://github.com/example-graduate/asset-audit-system"
-    },
-    {
-      id: "artisan-design-system",
-      title: "Artisan Pantry - E-Commerce Design System & Prototype",
-      subtitle: "UI/UX Case Study & Coursework",
-      category: "UI/UX",
-      featured: false,
-      description: "A comprehensive Figma design system and interactive prototype for an organic specialty food boutique, translated into accessible React components.",
-      detailedDescription: "A semester-long study in design tokens, color hierarchy, and human interface guidelines. Began with low-fidelity wireframing, conducted card-sorting tests, and delivered an atomic component library.",
-      keyFeatures: [
-        "30+ documented atomic design components (buttons, modals, cards, badges)",
-        "WCAG 2.1 AA compliant color palette tested for high readability",
-        "Interactive high-fidelity Figma prototype covering complete checkout flow",
-        "Live component playground built in React with Tailwind CSS"
-      ],
-      learningOutcomes: [
-        "Deepened understanding of design tokens, modular CSS, and design-to-code workflow",
-        "Conducted 5 user testing sessions to uncover and resolve checkout navigation friction",
-        "Documented comprehensive component props and accessibility guidelines"
-      ],
-      technologies: ["Figma", "React", "Tailwind CSS", "Accessibility (a11y)", "Design Systems"],
-      image: "https://images.unsplash.com/photo-1556742049-0a67c5574f73?auto=format&fit=crop&w=1000&q=80",
-      demoUrl: "https://example.com/demo/artisan-pantry",
-      githubUrl: "https://github.com/example-graduate/artisan-design-system"
     },
     {
       id: "scholar-link",

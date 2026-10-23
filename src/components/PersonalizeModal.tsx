@@ -37,7 +37,7 @@ export const PersonalizeModal: React.FC<PersonalizeModalProps> = ({
     onUpdatePersonal({
       name: name.trim() || 'Polcyrie Manalang',
       roleHeadline: headline.trim() || 'A Fresh Graduate Ready to Learn, Grow, and Make an Impact.',
-      email: email.trim() || 'polcyriemanalang91@example.com',
+      email: email.trim() || 'polcyriemanalang91@gmail.com',
       location: location.trim() || 'Metro City / Open to Relocation & Remote',
     });
     setSavedSuccess(true);
@@ -133,7 +133,7 @@ export const PersonalizeModal: React.FC<PersonalizeModalProps> = ({
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="polcyriemanalang91@example.com"
+              placeholder="polcyriemanalang91@gmail.com"
               className="w-full px-3.5 py-2.5 rounded-xl bg-white border border-taupe/60 text-sm text-cocoa focus:outline-none focus:border-coffee focus:ring-1 focus:ring-coffee"
             />
           </div>
