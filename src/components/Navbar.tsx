@@ -54,7 +54,7 @@ export const Navbar: React.FC<NavbarProps> = ({ name, onOpenResume }) => {
 
   // Get initials for elegant logo
   const initials = name
-    .replace(/[\[\]]/g, '')
+    .replace(/[[\]]/g, '')
     .split(' ')
     .filter(Boolean)
     .slice(0, 2)

@@ -178,7 +178,7 @@ export const initialPortfolioData: PortfolioData = {
       technologies: ["Visual Studio", "PHP", "JavaScript", "CSS", "XAMPP"],
       image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80",
       demoUrl: "https://example.com/demo/smartcampus",
-      githubUrl: "https://github.com/example-graduate/smartcampus-hub"
+      githubUrl: "https://github.com/polcyriemanalang91-rgb/smartcampus-hub"
     },
     {
       id: "Photography-Reservation-System",
@@ -204,7 +204,7 @@ export const initialPortfolioData: PortfolioData = {
       technologies: ["NetBeans", "Java SE", "Swing (JFrame)", "JDBC", "MySQL", "Claude AI"],
       image: "https://remi-portrait.com/wp-content/uploads/2026/02/Photography.webp",
       demoUrl: "https://example.com/demo/ecotrack",
-      githubUrl: "https://github.com/example-graduate/ecotrack-exchange"
+      githubUrl: "https://github.com/polcyriemanalang91-rgb/ecotrack-exchange"
     },
     {
       id: "aura-habits",
@@ -228,7 +228,7 @@ export const initialPortfolioData: PortfolioData = {
       technologies: ["React", "TypeScript", "Tailwind CSS", "Lucide Icons", "LocalStorage API"],
       image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=1000&q=80",
       demoUrl: "https://example.com/demo/aura-habits",
-      githubUrl: "https://github.com/example-graduate/aura-habit-tracker"
+      githubUrl: "https://github.com/polcyriemanalang91-rgb/aura-habit-tracker"
     },
     {
       id: "NEUST Management System",
@@ -249,12 +249,12 @@ export const initialPortfolioData: PortfolioData = {
       learningOutcomes: [
         "Gained hands-on experience in designing and implementing a relational database to store book and student records, strengthening SQL and ERD knowledge.",
         "Learned how to translate real-world library processes into a functional system, improving skills in Java, NetBeans, and logical workflow design.",
-        "Developed confidence in building a complete management system, preparing for future IT roles by showcasing practical knowledge in software development and documentation."
+        "Developed confidence in building a complete management system, preparing for future IT roles by showcasing practical knowledge in software development and documentation.",
       ],
       technologies: ["NetBeans", "MySQL", "JDBC", "Swing", "Java SE", "Claude AI"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80",
       demoUrl: "https://example.com/demo/asset-dashboard",
-      githubUrl: "https://github.com/example-graduate/asset-audit-system"
+      githubUrl: "https://github.com/polcyriemanalang91-rgb/asset-audit-system"
     },
     {
       id: "scholar-link",
@@ -278,7 +278,7 @@ export const initialPortfolioData: PortfolioData = {
       technologies: ["React", "JavaScript", "Tailwind CSS", "Firebase Auth", "Lucide Icons"],
       image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1000&q=80",
       demoUrl: "https://example.com/demo/scholarlink",
-      githubUrl: "https://github.com/example-graduate/scholarlink"
+      githubUrl: "https://github.com/polcyriemanalang91-rgb/scholarlink"
     }
   ]
 };
